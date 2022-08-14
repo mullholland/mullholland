@@ -1,6 +1,6 @@
 Hello there 👋,
 
-[obiwan](https://user-images.githubusercontent.com/10715113/184534676-bacabff0-cf43-43e8-b90e-00a0de83810d.gif)
+![obiwan](https://user-images.githubusercontent.com/10715113/184534722-9bdde60b-a2cf-49df-acc4-7be0730581e9.gif)
 
 i write ansible roles for fun.!
 
