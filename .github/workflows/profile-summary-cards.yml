@@ -1,0 +1,23 @@
+---
+name: Generate profile summary cards
+
+on:
+  schedule:
+    # Once a day at 03:00 UTC.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: mullholland
+          THEME: github_dark
+          AUTO_PUSH: true
